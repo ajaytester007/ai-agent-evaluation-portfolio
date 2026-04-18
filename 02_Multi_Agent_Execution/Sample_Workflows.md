@@ -1,0 +1,1 @@
+Trend → Ideation → Creation → Optimization → Scheduling

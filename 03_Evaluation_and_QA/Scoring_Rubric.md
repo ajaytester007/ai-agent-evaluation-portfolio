@@ -1,0 +1,4 @@
+Logical Consistency
+Context Completeness
+Execution Feasibility
+Reasoning Depth
