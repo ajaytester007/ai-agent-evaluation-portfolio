@@ -93,3 +93,26 @@ This evaluation approach focuses on:
 - Hallucination detection
 
 The goal is to ensure AI outputs are **usable, reliable, and production-ready**, not just syntactically correct.
+
+## JSON Validation Example
+
+Input:
+{
+  "task": "book flight",
+  "date": "tomorrow"
+}
+
+Issues:
+- Missing origin/destination
+- No constraints
+- Ambiguous execution
+
+Improved:
+{
+  "task": "book flight",
+  "from": "NYC",
+  "to": "SFO",
+  "date": "2026-04-20",
+  "time_window": "8AM-12PM",
+  "budget": 500
+}
